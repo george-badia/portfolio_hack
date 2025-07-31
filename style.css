@@ -170,3 +170,37 @@ nav {
    color: white;
    font-weight: bold;
 }
+
+/* Section Styles */
+.section {
+   padding: 5rem 0;
+   position: relative;
+}
+
+.section:nth-child(even) {
+   background: var(--bg-secondary);
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 2rem;
+}
+
+.section-title {
+   text-align: center;
+   font-size: 2.5rem;
+   font-weight: 700;
+   margin-bottom: 3rem;
+   color: var(--text-primary);
+}
+
+.section-subtitle {
+   text-align: center;
+   font-size: 1.1rem;
+   color: var(--text-secondary);
+   margin-bottom: 4rem;
+   max-width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+}
