@@ -1,10 +1,10 @@
 # 🌟 Modern Personal Portfolio Website
 
-[![Portfolio Badge](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://your-portfolio-url.com)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Portfolio Badge](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://portfolio-hack.vercel.app/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://github.com/george-badia/portfolio_hack/blob/main/index.html)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://github.com/george-badia/portfolio_hack/blob/main/style.css)
 [![README](https://img.shields.io/badge/README-md-blue)](https://github.com/george-badia/portfolio_hack/blob/main/README.md)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/george-badia/portfolio_hack/blob/main/LICENCE)
 
 > **Portfolio Challenge - July 2025 Cohort Hackathon** 🏆
 
@@ -465,8 +465,8 @@ git push origin feature/amazing-feature
 
 **⭐ If this helped you, please give it a star! ⭐**
 
-[![GitHub stars](https://img.shields.io/github/stars/your-username/modern-portfolio-website?style=social)](https://github.com/your-username/modern-portfolio-website)
-[![GitHub forks](https://img.shields.io/github/forks/your-username/modern-portfolio-website?style=social)](https://github.com/your-username/modern-portfolio-website/fork)
+[![GitHub stars](https://img.shields.io/github/stars/george-badia/portfolio_hack?style=social)](https://github.com/george-badia/portfolio_hack)
+[![GitHub forks](https://img.shields.io/github/forks/george-badia/portfolio_hack?style=social)](https://github.com/george-badia/portfolio_hack/fork)
 
 _Happy Coding! 🚀_
 
