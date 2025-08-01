@@ -508,7 +508,7 @@ nav {
 
 /* Footer */
 footer {
-   background: #0f172a; /* Dark blue-gray */
+   background: #0f172a; 
    color: #ffffff;
    padding: 2rem 1rem;
    text-align: center;
@@ -525,11 +525,48 @@ footer {
  footer p {
    margin: 0.5rem 0;
    line-height: 1.6;
-   color: #cbd5e1; /* Soft text color */
+   color: #cbd5e1; 
  }
  
  footer span {
-   color: #38bdf8; /* Accent color for names or highlights */
+   color: #38bdf8; 
    font-weight: 500;
  }
  
+  /* Animations */
+  @keyframes float {
+   0%,
+   100% {
+     transform: translateY(0px);
+   }
+   50% {
+     transform: translateY(-20px);
+   }
+ }
+
+ /* Responsive Design */
+ @media (max-width: 768px) {
+   .nav-links {
+     display: none;
+   }
+
+   .hero-container {
+     grid-template-columns: 1fr;
+     text-align: center;
+   }
+
+   .hero-content h1 {
+     font-size: 2.5rem;
+   }
+
+   .about-content,
+   .education-content,
+   .contact-container {
+     grid-template-columns: 1fr;
+   }
+
+   .languages-grid,
+   .projects-grid {
+     grid-template-columns: 1fr;
+   }
+ }
