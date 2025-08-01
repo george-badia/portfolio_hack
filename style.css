@@ -506,10 +506,30 @@ nav {
    transform: translateY(-2px);
  }
 
-       /* Footer */
-       footer {
-         background: var(--bg-dark);
-         color: white;
-         text-align: center;
-         padding: 2rem 0;
-       }
+/* Footer */
+footer {
+   background: #0f172a; /* Dark blue-gray */
+   color: #ffffff;
+   padding: 2rem 1rem;
+   text-align: center;
+   font-size: 0.95rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border-top: 1px solid rgba(255, 255, 255, 0.1);
+ }
+ 
+ footer .container {
+   max-width: 1000px;
+   margin: 0 auto;
+ }
+ 
+ footer p {
+   margin: 0.5rem 0;
+   line-height: 1.6;
+   color: #cbd5e1; /* Soft text color */
+ }
+ 
+ footer span {
+   color: #38bdf8; /* Accent color for names or highlights */
+   font-weight: 500;
+ }
+ 
