@@ -510,6 +510,10 @@ nav {
  .submit-btn:hover {
    transform: translateY(-2px);
  }
+ /* frequently asked questions */
+ .faq-question {
+  color: var(--primary-color, #6366f1);
+}
 
 /* Footer */
 footer {
