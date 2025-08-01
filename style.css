@@ -505,3 +505,11 @@ nav {
  .submit-btn:hover {
    transform: translateY(-2px);
  }
+
+       /* Footer */
+       footer {
+         background: var(--bg-dark);
+         color: white;
+         text-align: center;
+         padding: 2rem 0;
+       }
