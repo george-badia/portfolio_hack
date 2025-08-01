@@ -1,3 +1,4 @@
+/* =============general styling ==================*/
 * {
    margin: 0;
    padding: 0;
@@ -29,7 +30,7 @@ body {
    scroll-behavior: smooth;
 }
 
-/* Navigation */
+/* ===============================Navigation============================ */
 nav {
    position: fixed;
    top: 0;
@@ -75,7 +76,7 @@ nav {
    color: var(--primary-color);
 }
 
- /* Hero Section */
+ /* ============================Hero Section========================== */
  .hero {
    min-height: 100vh;
    display: flex;
@@ -180,7 +181,7 @@ nav {
    font-weight: bold;
 }
 
-/* Section Styles */
+/* ==========================Section Styles================================== */
 .section {
    padding: 5rem 0;
    position: relative;
@@ -214,7 +215,7 @@ nav {
    margin-right: auto;
 }
 
- /* Programming Languages */
+ /* =============================Programming Languages=================== */
  .languages-grid {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -261,7 +262,7 @@ nav {
 .mysql {background: linear-gradient(135deg, #f29111, #005e86);}
 .flask {background: linear-gradient(135deg, #000000, #6e6e6e);}
  
-/* About Section */
+/* =======================About Section=========================== */
 .about-content {
    display: grid;
    grid-template-columns: 1fr 2fr;
@@ -302,7 +303,7 @@ nav {
    color: var(--text-secondary);
  }
 
-/* Education Section */
+/* ===========================Education Section==================== */
 .education-content {
    display: grid;
    grid-template-columns: 1fr 1fr;
@@ -350,7 +351,7 @@ nav {
    transform: translateY(-2px);
  }
 
- /* Interests Section */
+ /* ==============================Interests Section=========================== */
  .interests-grid {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -387,7 +388,7 @@ nav {
    margin-bottom: 1rem;
  }
 
- /* Projects Section */
+ /* ====================Projects Section============================ */
  .projects-grid {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -450,7 +451,7 @@ nav {
    color: var(--secondary-color);
  }
 
- /* Contact Section */
+ /* ==========================Contact Section====================== */
  .contact-container {
    display: grid;
    grid-template-columns: 1fr 1fr;
@@ -517,12 +518,12 @@ nav {
  .submit-btn:hover {
    transform: translateY(-2px);
  }
- /* frequently asked questions */
+ /* ===================frequently asked questions================ */
  .faq-question {
   color: var(--primary-color, #6366f1);
 }
 
-/* Footer */
+/* =====================Footer=================================== */
 footer {
    background: #0f172a; 
    color: #ffffff;
@@ -549,7 +550,7 @@ footer {
    font-weight: 500;
  }
  
-  /* Animations */
+  /* ========================Animations========================= */
   @keyframes float {
    0%,
    100% {
@@ -560,7 +561,7 @@ footer {
    }
  }
 
- /* Responsive Design */
+ /* ====================Responsive Design======================== */
  @media (max-width: 768px) {
    .nav-links {
      display: none;
