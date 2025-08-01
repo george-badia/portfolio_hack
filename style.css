@@ -126,7 +126,7 @@ nav {
    margin-bottom: 2rem;
 }
 
-.cta-button {
+ .cta-button {
    display: inline-block;
    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
    color: white;
@@ -135,7 +135,9 @@ nav {
    border-radius: 50px;
    font-weight: 600;
    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+      position: relative;
+   z-index: 999;
+} 
 
 .cta-button:hover {
    transform: translateY(-2px);
