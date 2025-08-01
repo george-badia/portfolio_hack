@@ -24,7 +24,8 @@ body {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    line-height: 1.6;
    color: var(--text-primary);
-   background: var(--bg-primary);
+   /* background: var(--bg-primary); */
+   background: rgba(229, 229, 248, 0.3);
    scroll-behavior: smooth;
 }
 
@@ -155,7 +156,7 @@ nav {
    padding: 2rem;
    border-radius: 20px;
    border: 3px solid var(--primary-color);
-   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 30px 40px rgba(0, 0, 0, 0.1);
    text-align: center;
    transform: rotate(5deg);
    transition: transform 0.3s ease;
