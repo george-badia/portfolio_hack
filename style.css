@@ -247,7 +247,10 @@ nav {
 .html { background: linear-gradient(135deg, #e34f26, #ff6600); }
 .css { background: linear-gradient(135deg, #1572b6, #33a9dc); }
 .psql{ background: linear-gradient(135deg, #1572b6, #14668a); }
-
+.sql {background: linear-gradient(135deg, #00758f, #00b4db);}
+.mysql {background: linear-gradient(135deg, #f29111, #005e86);}
+.flask {background: linear-gradient(135deg, #000000, #6e6e6e);}
+ 
 /* About Section */
 .about-content {
    display: grid;
