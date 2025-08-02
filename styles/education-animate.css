@@ -75,7 +75,7 @@
    }
  }
  
- /* ================== Element-Specific Animations =================== */
+ /* ================== Page Specific Animations =================== */
   /* Animate navigation */
   nav {
    animation: slideDown 1s ease-out forwards;

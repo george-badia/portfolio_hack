@@ -75,7 +75,7 @@
    }
  }
  
- /* ====== Animation Triggers on Load ====== */
+ /* ====== Page Specific Animations ====== */
  .hero-content,
  .hero-image {
    animation-delay: 0.3s;

@@ -69,7 +69,7 @@ This personal portfolio website serves as a comprehensive showcase of my profess
 
 4. **Launch the Website**
    - Open `index.html` in your web browser, or
-   - Use Live Server extension in VS Code for development
+   - Use Live Server extension in VS Code for development.
 
 ### 🔧 Alternative Setup
 
