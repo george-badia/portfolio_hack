@@ -57,6 +57,7 @@ nav {
    font-weight: 800;
    color: var(--primary-color);
    margin-bottom: 3px;
+   text-decoration: none;
 }
 
 .nav-links {
