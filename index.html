@@ -3,37 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/index-animate.css" />
   </head>
   <body>
     <!-- ==========================Navigation ==========================-->
     <nav>
-      <div class="nav-container">
+      <div class="nav-container fade-in">
         <div>
-          <a href="#home" class="logo">Badia 👨‍💻</a>
+          <a href="index.html" class="logo">Badia 👨‍💻</a>
         </div>
         <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="interests.html">Interests</a></li>
+          <li><a href="languages.html">skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
     </nav>
     <!-- ==============================Hero Section========================== -->
     <section id="home" class="hero">
       <div class="hero-container">
-        <div class="hero-content">
+        <div class="hero-content slide-left">
           <h1>George Badia</h1>
           <p>
             Full Stack Developer passionate about creating innovative web
             solutions that make a difference in people's lives.
           </p>
-          <a href="#contact" class="cta-button">Let's Work Together</a>
+          <a href="contact.html" class="cta-button fade-in"
+            >Let's Work Together</a
+          >
         </div>
-        <div class="hero-image">
+        <div class="hero-image slide-right">
           <div class="profile-card">
             <div class="profile-avatar">
               <img src="assets/pic pro 2.jpg" alt="Profile Picture" />
@@ -44,432 +48,14 @@
         </div>
       </div>
     </section>
-    <!-- ========================Programming Languages Section =======================-->
-    <section id="skills" class="section">
-      <div class="container">
-        <h2 class="section-title">Programming Languages</h2>
-        <p class="section-subtitle">
-          Technologies I work with to bring ideas to life
-        </p>
-        <div class="languages-grid">
-          <div class="language-card">
-            <div class="language-icon js">JS</div>
-            <h3>JavaScript</h3>
-            <p>Modern ES6+ JavaScript for dynamic web applications</p>
-          </div>
-          <div class="language-card">
-            <div class="language-icon python">PY</div>
-            <h3>Python</h3>
-            <p>Backend development and data analysis</p>
-          </div>
-          <div class="language-card">
-            <div class="language-icon react">RT</div>
-            <h3>React</h3>
-            <p>Component-based user interfaces</p>
-          </div>
-          <div class="language-card">
-            <div class="language-icon nodejs">ND</div>
-            <h3>Node.js</h3>
-            <p>Server-side JavaScript development</p>
-          </div>
-          <div class="language-card">
-            <div class="language-icon html">HT</div>
-            <h3>HTML5</h3>
-            <p>Semantic markup and web standards</p>
-          </div>
-          <div class="language-card">
-            <div class="language-icon css">CS</div>
-            <h3>CSS3</h3>
-            <p>Modern styling and animations</p>
-          </div>
-          <div class="language-card">
-            <div class="language-icon psql">PSQL</div>
-            <h3>Postgresql</h3>
-            <p>Modern, powerful relational database</p>
-          </div>
-          <div class="language-card">
-            <div class="language-icon sql">SQL</div>
-            <h3>SQL</h3>
-            <p>Powerful language for querying relational databases</p>
-          </div>
-
-          <div class="language-card">
-            <div class="language-icon mysql">MY</div>
-            <h3>MySQL</h3>
-            <p>Reliable open-source relational database system</p>
-          </div>
-
-          <div class="language-card">
-            <div class="language-icon flask">FL</div>
-            <h3>Flask</h3>
-            <p>Lightweight Python web framework for APIs and apps</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- =======================About Section =========================-->
-    <section id="about" class="section">
-      <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <div class="about-content">
-          <div class="about-image">
-            <div class="about-avatar">
-              <img
-                src="assets/WhatsApp_Image_2025-02-11_at_16.57.49_f3a27151-removebg-preview.png"
-                alt="Profile Picture"
-              />
-            </div>
-          </div>
-          <div class="about-text">
-            <p>
-              Hi! I'm George Badia, a passionate full stack developer with a
-              keen interest in creating functional and aesthetically pleasing
-              web experiences. With over 2 years of experience in web
-              development, I specialize in building scalable applications that
-              solve real-world problems.
-            </p>
-
-            <p>
-              My journey in technology began during my College years, where I
-              discovered my love for coding and problem-solving. Since then,
-              I've been continuously learning and adapting to new technologies,
-              always striving to deliver high-quality solutions that exceed
-              expectations.
-            </p>
-
-            <p>
-              When I'm not coding, you can find me exploring the Bio-medical
-              engineering field new technologies both in tech and healthcare,
-              contributing to open-source projects, or mentoring aspiring
-              developers in my community. I believe in the power of technology
-              to create positive change and am committed to using my skills to
-              make a meaningful impact.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--============================ Education Section ========================-->
-    <section id="education" class="section">
-      <div class="container">
-        <h2 class="section-title">Educational Background</h2>
-        <div class="education-content">
-          <div class="education-card">
-            <div class="degree">Full Stack Web Development Certification</div>
-            <div class="university">Power Learn Project Africa</div>
-            <div class="year">July 2025</div>
-            <p>
-              Focused on software engineering, database systems, algorithms,Ai
-              and Machine learning and web development.
-            </p>
-          </div>
-          <div class="education-card">
-            <div class="degree">Diploma in Medical Engineering</div>
-            <div class="university">KMTC (Kenya Medical Training College)</div>
-            <div class="year">2022</div>
-            <p>
-              Advanced training in biomedical systems, diagnostics, equipment
-              calibration, and healthcare technology management.
-            </p>
-            <a href="assets/Badia_CV.pdf" class="cv-download" download>
-              Download My CV
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- =====================Interests Section======================= -->
-    <section id="interests" class="section">
-      <div class="container">
-        <h2 class="section-title">My Interests</h2>
-        <p class="section-subtitle">What drives my passion for technology</p>
-        <div class="interests-grid">
-          <div class="interest-card">
-            <div class="interest-icon">🌐</div>
-            <h3>Web Development</h3>
-            <p>
-              Delving into modern frameworks and best practices to create
-              exceptional user experiences. I'm particularly interested in
-              performance optimization and accessibility.
-            </p>
-          </div>
-          <div class="interest-card">
-            <div class="interest-icon">🚀</div>
-            <h3>Tech Innovations</h3>
-            <p>
-              Keeping abreast of the latest trends in technology, from AI and
-              machine learning to emerging web technologies and development
-              methodologies.
-            </p>
-          </div>
-          <div class="interest-card">
-            <div class="interest-icon">🎨</div>
-            <h3>UI/UX Design</h3>
-            <p>
-              Creating intuitive and beautiful interfaces that provide seamless
-              user experiences. I believe great design is essential for great
-              functionality.
-            </p>
-          </div>
-          <div class="interest-card">
-            <div class="interest-icon">📱</div>
-            <h3>Mobile Development</h3>
-            <p>
-              Exploring cross-platform mobile development solutions to create
-              applications that work seamlessly across all devices.
-            </p>
-          </div>
-          <div class="interest-card">
-            <div class="interest-icon">🗄️</div>
-            <h3>Database Management</h3>
-            <p>
-              Passionate about designing efficient and scalable databases. I
-              enjoy working with relational and NoSQL systems to manage and
-              query data effectively.
-            </p>
-          </div>
-
-          <div class="interest-card">
-            <div class="interest-icon">🤖</div>
-            <h3>AI & Machine Learning</h3>
-            <p>
-              Intrigued by the potential of AI to solve real-world problems. I'm
-              learning to build intelligent systems that can analyze, predict,
-              and automate tasks through data.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- =====================Projects Section ======================-->
-    <section id="projects" class="section">
-      <div class="container">
-        <h2 class="section-title">Featured Projects</h2>
-        <p class="section-subtitle">
-          A showcase of my recent work and achievements
-        </p>
-        <div class="projects-grid">
-          <div class="project-card">
-            <div class="project-image">
-              <img src="assets/movie-ticketing.png" alt="Project Picture" />
-            </div>
-            <div class="project-content">
-              <h3 class="project-title">ARCANE Booking</h3>
-              <p class="project-description">
-                ARCANE is an online ticket booking application that allows users
-                to easily browse, book, and manage tickets for movies and live
-                events.It provide a seamless experience with intuitive
-                navigation and secure payment options.
-              </p>
-              <a
-                href="https://arcane-v2.vercel.app/"
-                class="project-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                >View Project →</a
-              >
-            </div>
-          </div>
-          <div class="project-card">
-            <div class="project-image">
-              <img src="assets/furniture-cart.png" alt="Project Picture" />
-            </div>
-            <div class="project-content">
-              <h3 class="project-title">furniture website cart</h3>
-              <p class="project-description">
-                This project is a furniture e-commerce solution website cart
-                application built with React. It provides a user interface for
-                browsing and purchasing furniture items online with seamless
-                navigation and responsive design.
-              </p>
-              <a
-                href="https://alphabs-furniture.netlify.app/"
-                class="project-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                >View Project →</a
-              >
-            </div>
-          </div>
-          <div class="project-card">
-            <div class="project-image">
-              <img src="assets/tabibu-hub.png" alt="Project Picture" />
-            </div>
-            <div class="project-content">
-              <h3 class="project-title">Tabibu hub</h3>
-              <p class="project-description">
-                Tabibu Hub Connect is a user-friendly web application designed
-                to provide accessible health information, connect users with
-                online doctors, offer various health tools,sections for online
-                doctor consultations, and a contact form.
-              </p>
-              <a
-                href="https://george-badia.github.io/Tabibu-Hub-Connect-v-1/"
-                class="project-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                >View Project →</a
-              >
-            </div>
-          </div>
-          <div class="project-card">
-            <div class="project-image">
-              <img src="assets/portfolio_4.png" alt="Project Picture" />
-            </div>
-            <div class="project-content">
-              <h3 class="project-title">Portfolio Website</h3>
-              <p class="project-description">
-                A modern, responsive portfolio website showcasing web
-                development skills with smooth animations and contemporary
-                design.
-              </p>
-              <a
-                href="https://portfolio-hack.vercel.app/"
-                class="project-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                >View Project →</a
-              >
-            </div>
-          </div>
-          <div class="project-card">
-            <div class="project-image">
-              <img src="assets/botbatlr.png" alt="Project Picture" />
-            </div>
-            <div class="project-content">
-              <h3 class="project-title">Bot Battlr</h3>
-              <p class="project-description">
-                Bot Battlr displays a list of available bots that can be
-                enlisted into an army. Users can sort bots by different
-                criteria, view detailed specifications for each bot.
-              </p>
-              <a
-                href="https://bot-battlr-five-liard.vercel.app/"
-                class="project-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                >View Project →</a
-              >
-            </div>
-          </div>
-          <div class="project-card">
-            <div class="project-image">
-              <img src="assets/Travel_journal.png" alt="Project Picture" />
-            </div>
-            <div class="project-content">
-              <h3 class="project-title">Travel Journal</h3>
-              <p class="project-description">
-                A simple journal application built with React, allowing users to
-                register, log in, manage entries, and edit their profiles.its
-                mobile responsive and with a sleek.
-              </p>
-              <a
-                href="https://the-travel-journal-client.onrender.com"
-                class="project-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                >View Project →</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- =========================Contact Section ===========================-->
-    <section id="contact" class="section">
-      <div class="container">
-        <h2 class="section-title">Get In Touch</h2>
-        <p class="section-subtitle">
-          Let's discuss your next project or collaboration opportunity
-        </p>
-        <div class="contact-container">
-          <div class="contact-info">
-            <h3>Let's Connect</h3>
-            <p>
-              I'm always interested in hearing about new opportunities and
-              projects. Whether you're a company looking to hire, or you're a
-              developer who'd like to collaborate, I'd love to hear from you.
-            </p>
-            <br />
-            <p><strong>Email:</strong> gbadia03@gmail.com</p>
-            <p><strong>Phone:</strong> +254 703214696</p>
-            <p><strong>Location:</strong> Siaya, Kenya</p>
-            <br />
-            <h3>FAQs</h3>
-
-            <p>
-              <strong class="faq-question"
-                >1. What technologies do you specialize in?</strong
-              ><br />
-              I specialize in HTML, CSS, JavaScript, React, Python, and Flask. I
-              also have experience with database management and modern design
-              practices.
-            </p>
-
-            <p>
-              <strong class="faq-question"
-                >2. Are you available for freelance or collaborative
-                projects?</strong
-              ><br />
-              Yes, I'm always open to exciting freelance projects or
-              collaborations that align with my values and skills. Feel free to
-              contact me via the contact form below.
-            </p>
-
-            <p>
-              <strong class="faq-question"
-                >3. How can I get in touch with you?</strong
-              ><br />
-              You can reach me through the contact form on this website, or
-              email me directly at the address listed in the let's connect. I
-              typically respond within 24 hours.
-            </p>
-          </div>
-          <form class="contact-form">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" required />
-            </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required />
-            </div>
-            <div class="form-group">
-              <label for="subject">Subject</label>
-              <input type="text" id="subject" name="subject" required />
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea
-                id="message"
-                name="message"
-                rows="5"
-                required
-              ></textarea>
-            </div>
-            <button type="submit" class="submit-btn">Send Message</button>
-          </form>
-        </div>
-      </div>
-    </section>
-    <!--====================== Footer ========================-->
-    <footer>
-      <div class="container">
-        <p>&copy; 2025 <span>George Badia</span>. All rights reserved.</p>
-        <p>
-          Built with ❤️ using pure <strong>HTML</strong> & <strong>CSS</strong>.
-        </p>
-      </div>
-    </footer>
-    <!-- <script>
-      // Simple form handling
-      document
-        .querySelector(".contact-form")
-        .addEventListener("submit", function (e) {
-          e.preventDefault();
-          alert("Thank you for your message! I'll get back to you soon.");
-          this.reset();
-        });
-    </script> -->
   </body>
+  <!--====================== Footer ========================-->
+  <footer>
+    <div class="container slide-up">
+      <p>&copy; 2025 <span>George Badia</span>. All rights reserved.</p>
+      <p>
+        Built with ❤️ using pure <strong>HTML</strong> & <strong>CSS</strong>.
+      </p>
+    </div>
+  </footer>
 </html>

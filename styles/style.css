@@ -18,7 +18,8 @@ html {
    --bg-primary: #ffffff;
    --bg-secondary: #f9fafb;
    --bg-dark: #111827;
-   --border-color: #e5e7eb;
+   --border-color:#e5e7eb;
+   --fade-duration: 10s;
 }
 
 body {
@@ -531,7 +532,7 @@ nav {
 
 /* =====================Footer=================================== */
 footer {
-   background: #0f172a; 
+   background:#111827;
    color: #ffffff;
    padding: 2rem 1rem;
    text-align: center;
@@ -566,7 +567,11 @@ footer {
      transform: translateY(-20px);
    }
  }
-
+/* @keyframes fadeIn {
+  to {
+   opacity: 1;
+  }
+} */
  /* ====================Responsive Design======================== */
  @media (max-width: 768px) {
    .nav-links {
