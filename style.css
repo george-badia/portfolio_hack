@@ -204,6 +204,10 @@ nav {
    font-weight: 700;
    margin-bottom: 3rem;
    color: var(--text-primary);
+   border: 2px solid var(--primary-color);
+   padding: 1rem;
+   display: center; 
+   border-radius: 8px; 
 }
 
 .section-subtitle {
@@ -214,6 +218,7 @@ nav {
    max-width: 600px;
    margin-left: auto;
    margin-right: auto;
+   font-weight: 700; 
 }
 
  /* =============================Programming Languages=================== */
