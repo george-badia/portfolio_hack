@@ -6,6 +6,14 @@
 [![README](https://img.shields.io/badge/README-md-blue)](https://github.com/george-badia/portfolio_hack/blob/main/README.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/george-badia/portfolio_hack/blob/main/LICENCE)
 
+---
+
+## 📸 Screenshot
+
+![portfolio screenshot](./assets/portfolio_4.png)
+
+---
+
 > **Portfolio Challenge - July 2025 Cohort Hackathon** 🏆
 
 A modern, sleek personal portfolio website built with pure HTML and CSS, showcasing professional skills, educational background, projects, and providing a seamless way for potential employers or collaborators to get in touch.
