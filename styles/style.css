@@ -14,7 +14,7 @@ html {
    --secondary-color: #8b5cf6;
    --accent-color: #f59e0b;
    --text-primary: #1f2937;
-   --text-secondary: #6b7280;
+   --text-secondary: #444;
    --bg-primary: #ffffff;
    --bg-secondary: #f9fafb;
    --bg-dark: #111827;
@@ -598,6 +598,7 @@ footer {
      grid-template-columns: 1fr;
    }
  }
+ /* =====================Hamburger========================= */
  /* Hide checkbox */
 #menu-toggle {
   display: none;
@@ -654,4 +655,24 @@ footer {
     font-size: 1.1rem;
     /* padding: 0.5rem 1rem; */
   }
+}
+/* ===========================back-to-top===================== */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #6366f1;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 18px;
+  display: none;
+}
+
+body:has(#contact:target) .back-to-top {
+  display: block;
+}
+.back-to-top {
+  display: block;
 }
