@@ -668,6 +668,7 @@ footer {
   text-decoration: none;
   font-size: 18px;
   display: none;
+  z-index: 999;
 }
 
 body:has(#contact:target) .back-to-top {
