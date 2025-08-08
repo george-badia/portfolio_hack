@@ -530,32 +530,87 @@ nav {
   color: var(--primary-color, #6366f1);
 }
 
-/* =====================Footer=================================== */
-footer {
-   background:#111827;
-   color: #ffffff;
-   padding: 2rem 1rem;
-   text-align: center;
-   font-size: 0.95rem;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   border-top: 1px solid rgba(255, 255, 255, 0.1);
- }
- 
- footer .container {
-   max-width: 1000px;
-   margin: 0 auto;
- }
- 
- footer p {
-   margin: 0.5rem 0;
-   line-height: 1.6;
-   color: #cbd5e1; 
- }
- 
- footer span {
-   color: #38bdf8; 
-   font-weight: 500;
- }
+
+ /* ===================================
+ CONTACT ME FOOTER STYLES
+=================================== */
+
+.main-footer {
+  background: rgba(255, 255, 255, 0.95);
+  color: #1f2937;
+  /* Box Model: Padding for footer content */
+  padding: 60px 0 20px 0;
+  border-bottom: 2px solid var(--primary-color);
+  border-top: 2px solid var(--primary-color);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  /* Box Model: Margin for spacing */
+  margin-bottom: 40px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  color: #6366f1;
+  /* Box Model: Margin for spacing */
+  margin-bottom: 20px;
+}
+
+.footer-section ul {
+  list-style: none;
+  
+}
+
+.footer-section ul li {
+  /* Box Model: Margin for list item spacing */
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #1f2937;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  /* Box Model: Padding for clickable area */
+  padding: 2px 0;
+}
+
+.footer-section ul li a:hover {
+  color: #6366f1;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  background-color: #34495e;
+  color: #ffffff;
+  /* Box Model: Padding and border for social links */
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.social-link:hover {
+  background-color: #6366f1;
+  border-color: #6366f1;
+  transform: translateY(-2px);
+}
+
+.footer-bottom {
+  /* Box Model: Padding and border for footer bottom */
+  padding-top: 20px;
+  border-top: 2px solid #6366f1;
+  text-align: center;
+  color: #1f2937;
+}
  
   /* ========================Animations========================= */
   @keyframes float {
@@ -596,6 +651,11 @@ footer {
    .languages-grid,
    .projects-grid {
      grid-template-columns: 1fr;
+   }
+
+   .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
    }
  }
  /* =====================Hamburger========================= */
